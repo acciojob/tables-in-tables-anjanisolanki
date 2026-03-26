@@ -1,2 +1,42 @@
-
 /* Your CSS Code here. */
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* Styles the outer boundary */
+.main-table {
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+}
+
+/* Styles the 4 main quadrants */
+.main-table > tbody > tr > td {
+    border: 2px solid black;
+    padding: 20px;
+    vertical-align: top;
+}
+
+/* Styles the inner tables */
+.nested-table {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.nested-table th, .nested-table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Fixes the list alignment */
+ul {
+    text-align: left;
+}
+
+/* Styles the Bottom-Right HTML box */
+.black-bg {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
